@@ -1,0 +1,6 @@
+<a (click)="setCurrentPage(1)" class="nav" [style.color]="currPage === 1 ? 'blue' : 'black'">Chart</a>
+<a (click)="setCurrentPage(2)" class="nav" [style.color]="currPage === 2 ? 'blue' : 'black'">Search</a>
+<div style="margin-top: 50px">
+    <chart *ngIf="currPage === 1"></chart>
+    <search *ngIf="currPage === 2"></search>
+</div>

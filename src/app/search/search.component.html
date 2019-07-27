@@ -1,0 +1,4 @@
+<input type="text" (change)="onBTCChange($event)" placeholder="Enter amount in BTC and click outside">
+<div *ngFor="let txn of matchingTxns">
+    Hash - {{txn.hash}}, BTC - {{txn.btcValue}}, USD - {{txn.usdValue}}
+</div>

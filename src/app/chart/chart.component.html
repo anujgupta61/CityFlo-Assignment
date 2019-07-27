@@ -1,0 +1,9 @@
+WebSocket status - {{status}}
+
+<div style="width: 800px; height: 400px;" *ngIf="latestTxns.length > 0">
+    <ngx-line-chart [dataSets]="dataSets" [xLabelFunction]="formatXAxisValue.bind(this)">
+    </ngx-line-chart>
+</div>
+<div *ngIf="latestTxns.length === 0">
+    Chart will appear soon ....
+</div>
