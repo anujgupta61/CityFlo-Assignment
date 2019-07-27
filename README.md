@@ -1,4 +1,4 @@
-# CityFlow-Assignment
+# CityFlo-Assignment
 
 ## Instructions for running the project
 1. Install Node. (https://nodejs.org/en/download/)
